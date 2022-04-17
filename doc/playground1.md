@@ -111,6 +111,17 @@ h1 {
 > In that case the style of this deck is overloaded.
 
 ---
+<style scoped>
+  h1 {
+    height: 100%
+  }
+</style>
+# Vertical Alignment
+bla 
+bla bla
+bla bla bla  
+
+---
 # Image Custom
 Embed an image fit to custom size using `width` and `height` attributes:
 
