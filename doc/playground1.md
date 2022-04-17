@@ -139,7 +139,7 @@ p {
 # Background 
 <style scoped> 
 
-h1, p {
+p {
   color: white
 }
 </style>
@@ -148,10 +148,22 @@ Scale bg image to fill the slide is the `default` case
 
 ---
 ![bg left](./img/bliss.jpg)
-# Background Left
+# Background
 
 ...
-Background using left side
+Background using `left` or `right` positioning
+
+---
+# Muliple Backgrounds 1
+![bg](./img/bliss.jpg)
+![bg sepia](./img/bliss.jpg)
+![bg grayscale](./img/bliss.jpg)
+
+---
+# Muliple Backgrounds 2
+![bg vertical](./img/bliss.jpg)
+![bg sepia](./img/bliss.jpg)
+![bg grayscale](./img/bliss.jpg)
 
 
 ---
