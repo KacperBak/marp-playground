@@ -1,15 +1,14 @@
 ---
 marp: true
-
 ---
 <style>
-:root {
-  background: #FFFFFF
-}
-
-h1, h2, h3 {
-  color: #780000
-}
+  :root {
+    background: #FFFFFF
+  }
+  
+  h1, h2, h3 {
+    color: #780000
+  }
 
 </style>
 
@@ -26,12 +25,12 @@ bla bla bla
 ---
 
 # Tables
-| **Nr.** | **left alignment**         | **center alignment** | **right alignment**            |
-|---------|----------------------------|:--------------------:|-------------------------------:|
-| 1       |_italic_                    |->                    | \_italic\_                     |
-| 2       |**bold**                    |->                    | \*\*bold\*\*                   |
-| 3       |`code`                      |->                    | \`code\`                       |
-| 4       |[Link](https://source.org/) |->                    | \[Text\]\(https://source.org/\ |             
+| **Nr.** | **left alignment**         | **center alignment** | **right alignment**             |
+|---------|----------------------------|:--------------------:|--------------------------------:|
+| 1       |_italic_                    |->                    | \_italic\_                      |
+| 2       |**bold**                    |->                    | \*\*bold\*\*                    |
+| 3       |`code`                      |->                    | \`code\`                        |
+| 4       |[Link](https://source.org/) |->                    | \[Text\]\(https://source.org/\) |             
 
 
 ---
@@ -74,32 +73,42 @@ public class App {
 ```
 
 --- 
-# Set your Style like in CSS
 <style scoped>
-section{
-     background: magenta
-     
-}   
+  @font-face{
+    font-family: 'Whisper-Regular';
+    src: url(./font/Whisper-Regular.ttf) format('truetype')
+  }
+  section{
+       background: magenta
+  }   
 
-h1 {
-  color: yellow
-}
+  h1 {
+    color: yellow;
+    font-family: 'Whisper-Regular';  
+  }
 
-p {
-    color: white
-}
+  p {
+      color: white
+  }
 </style>
+# Set your Style like in CSS
 
 
 ```CSS
 <style scoped>
-section{
-     background: red
-}   
+  @font-face{
+    font-family: 'Whisper-Regular';
+    src: url(./font/Whisper-Regular.ttf) format('truetype')
+  }
 
-h1 {
-  color: yellow
-}
+  section{
+       background: magenta
+  }   
+
+  h1 {
+    color: yellow;
+    font-family: 'Whisper-Regular'; 
+  }
 </style>
 ```
 
@@ -248,3 +257,5 @@ Generate project data results from your CI/CD into a slide deck.
 - https://marp.app/
 - https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
 - https://marpit.marp.app/directives
+- https://fonts.google.com/specimen/Whisper
+  
