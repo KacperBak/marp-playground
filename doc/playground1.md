@@ -258,4 +258,4 @@ Generate project data results from your CI/CD into a slide deck.
 - https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
 - https://marpit.marp.app/directives
 - https://fonts.google.com/specimen/Whisper
-  
+- https://github.com/KacperBak/marp-playground
